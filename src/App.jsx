@@ -8,7 +8,7 @@ function App() {
   const [ loading, setLoading ] = useState( false );
   const [ dish, setdish ] = useState( [] );
 
-  const API_KEY = "AIzaSyAiig2jH8mm5fJ9B6bGsiFMVQMMxnW53gU";
+  const API_KEY = "";//enter your gemini-pro-vision API
 
   async function fetchDataFromGeminiProVisionAPI() {
     try {
