@@ -7,7 +7,7 @@ const RecipeCard = ({ id }) => {
       searchRecipe(id);
   
       async function searchRecipe(id) {
-        const API_KEY_R = "74e551a8abb34db0832b283b4e2fb388";
+        const API_KEY_R = "";//ENTER UR API
         try {
           const res = await fetch(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${API_KEY_R}`);
           const data = await res.json();
