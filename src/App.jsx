@@ -38,7 +38,7 @@ function App() {
       searchDish( { ingredientsArray } )
 
       async function searchDish( { ingredientsArray } ) {
-        const API_KEY_R = "74e551a8abb34db0832b283b4e2fb388";
+        const API_KEY_R = "";//ENTER UR API
         const API_URL = `https://api.spoonacular.com/recipes/findByIngredients?apiKey=${ API_KEY_R }`
         try {
 
